@@ -1,17 +1,17 @@
-# Repo to learn Docker with examples. Contributions are most welcome.
+# Repo to learn Docker with examples. I want you to know that contributions are most welcome.
 
 ## If you found this repo useful, give it a STAR 🌠
 
-You can watch the video version of this repo on my youtube playlist. -> https://www.youtube.com/watch?v=7JZP345yVjw&list=PLdpzxOOAlwvLjb0vTD9BXLOwwLD_GWCmC
+You can watch the video version of this repo on my YouTube playlist. -> 
 
 
-## What is a container ?
+## What is a container?
 
 A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
 
 Ok, let me make it easy !!!
 
-A container is a bundle of Application, Application libraries required to run your application and the minimum system dependencies.
+A container is a bundle of Applications, Application libraries required to run your application, and the minimum system dependencies.
 
 ![Screenshot 2023-02-07 at 7 18 10 PM](https://user-images.githubusercontent.com/43399466/217262726-7cabcb5b-074d-45cc-950e-84f7119e7162.png)
 
@@ -25,15 +25,15 @@ Containers and virtual machines are both technologies used to isolate applicatio
 
     2. Portability: Containers are designed to be portable and can run on any system with a compatible host operating system. VMs are less portable as they need a compatible hypervisor to run.
 
-    3. Security: VMs provide a higher level of security as each VM has its own operating system and can be isolated from the host and other VMs. Containers provide less isolation, as they share the host operating system.
+    3. Security: VMs provide a higher level of security as each VM has its operating system and can be isolated from the host and other VMs. Containers provide less isolation, as they share the host operating system.
 
    4.  Management: Managing containers is typically easier than managing VMs, as containers are designed to be lightweight and fast-moving.
 
 
 
-## Why are containers light weight ?
+## Why are containers lightweight?
 
-Containers are lightweight because they use a technology called containerization, which allows them to share the host operating system's kernel and libraries, while still providing isolation for the application and its dependencies. This results in a smaller footprint compared to traditional virtual machines, as the containers do not need to include a full operating system. Additionally, Docker containers are designed to be minimal, only including what is necessary for the application to run, further reducing their size.
+Containers are lightweight because they use containerization technology, which allows them to share the host operating system's kernel and libraries while providing isolation for the application and its dependencies. This results in a smaller footprint compared to traditional virtual machines, as the containers do not need to include a full operating system. Additionally, Docker containers are designed to be minimal, only including what is necessary for the application to run, reducing their size.
 
 Let's try to understand this with an example:
 
