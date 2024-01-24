@@ -2,7 +2,7 @@
 
 ## If you found this repo useful, give it a STAR 🌠
 
-You can watch the video version of this repo on my YouTube playlist. -> 
+You can watch the video version of this repo on my YouTube playlist. -> https://www.youtube.com/playlist?list=PLrFWmDe-rblodLpXziSVobt6yWHrQoYQ0
 
 
 ## What is a container?
